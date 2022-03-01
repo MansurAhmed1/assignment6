@@ -88,7 +88,7 @@ console.log(data.others)
      document.getElementById('card-details').innerHTML=`<div class="card mb-3 " style="width:100%; ">
      <div class="row g-0">
        <div class="col-md-4 p-lg-4  pt-lg-4  d-flex flex-column  justify-content-lg-center align-items-lg-center">
-       <div class="text-end d-block d-lg-none"><span onclick="deleteFunction(this)"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" style="margin-right:10px; margin-top:10px;color:black;" fill="currentColor" class="bi bi-x-square bg-danger text-black" viewBox="0 0 16 16">
+       <div class="text-end d-block d-lg-none"><span onclick="deleteFunction(this)"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" style="margin-right:10px; margin-top:10px;color:black;" fill="currentColor" class="bi bi-x-square  text-black" viewBox="0 0 16 16">
        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
      </svg></span></div>
@@ -106,11 +106,11 @@ console.log(data.others)
           
             <p class="card-text">ReleaseDate: <span class="text-black fw-normal"> ${data.releaseDate ? data.releaseDate:'release data no found'} </span> </p>
             <p class="card-text">Storage: <span class="text-black fw-normal"> ${data.mainFeatures.storage}</span> </p>
-            <p class="card-text">Storage: <span class="text-black fw-normal"> ${data.mainFeatures.memory}</span> </p>
+            <p class="card-text">Memory: <span class="text-black fw-normal"> ${data.mainFeatures.memory}</span> </p>
             <p class="card-text"> Chipset: <span class="text-black fw-normal"> ${data.mainFeatures.chipSet}</span> </p>
             <p class="card-text"> Display-size: <span class="text-black fw-normal"> ${data.mainFeatures.displaySize}</span> </p>
             <p class="card-text"> Sensor:<span class="text-black fw-normal">${data.mainFeatures.sensors} </span>   </p>
-            <p class="card-text"> GPS:<span class="fw-normal">${data.others ? data.others.GPS:'No '}  </span> ,Bluetooth:<span class="fw-normal"> ${data.others ? data.others.Bluetooth:'No'} </span>  , WLAN:<span class="fw-normal">${data.others ? data.others. WLAN:'No'}</span>  ,USB:<span class="fw-normal">${data.others ? data.others. USB:'No'} </span>  ,   Radio:<span class="fw-normal">${data.others ? data.others. Radio:'No'} </span>   ,    NFC:<span class="fw-normal">${data.others ? data.others.   NFC:'No'}</span></p>
+            <p class="card-text"> GPS:<span class="fw-normal">${data.others ? data.others.GPS:'No '}  </span> <br> Bluetooth:<span class="fw-normal"> ${data.others ? data.others.Bluetooth:'No'} </span> <br>   WLAN:<span class="fw-normal">${data.others ? data.others. WLAN:'No'}</span> <br>  USB:<span class="fw-normal">${data.others ? data.others. USB:'No'} </span> <br>     Radio:<span class="fw-normal">${data.others ? data.others. Radio:'No'} </span>   <br>    NFC:<span class="fw-normal">${data.others ? data.others.   NFC:'No'}</span></p>
           
          </div>
        </div>
