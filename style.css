@@ -16,8 +16,9 @@
     #input-search-text{
         width: 75%;
         margin: auto;
-
-
+      }
+      #card-details{
+          width: 80%;
       }
 
 }
