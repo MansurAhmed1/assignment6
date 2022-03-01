@@ -1,0 +1,23 @@
+#displayMobile{
+    width: 90%;
+  }
+  body{
+    background-color: #170614;
+  }
+  #input-search-text{
+    width: 50%;
+    margin: auto;
+
+
+  }
+
+
+@media (max-width: 600px) {
+    #input-search-text{
+        width: 75%;
+        margin: auto;
+
+
+      }
+
+}
