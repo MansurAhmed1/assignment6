@@ -64,7 +64,7 @@ const showMobile=(mobiles)=>{
  }
  //click function
 const details=(datails)=>{
-
+  document.getElementById('card-details').innerHTML=''
   document.getElementById('spinner').innerHTML=` <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
   <div class="spinner-border text-light" role="status">
     <span class="visually-hidden">Loading...</span>
