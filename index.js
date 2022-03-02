@@ -22,7 +22,7 @@
     .then(res=>res.json())
     .then(data=>{
       document.getElementById('spinner').innerHTML=''
-      document.getElementById('show-all').innerHTML=`<button  class="btn text-white border border-white px-5 d-block mx-auto mt-2 mb-4  " onclick="showall()" >showall</button>`
+      document.getElementById('show-all').innerHTML=`<button  class="btn text-white border border-white px-5 d-block mx-auto mt-0 mb-4  " onclick="showall()" >showall</button>`
       showMobile(data.data.slice(0,20))
     })
 
