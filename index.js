@@ -1,5 +1,6 @@
   //function search button
   function searchButton(){
+    document.getElementById('show-all').innerHTML=''
     document.getElementById('card-details').innerHTML='';
     document.getElementById('displayMobile').innerHTML='';
     document.getElementById('spinner').innerHTML=` <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
